@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+header {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    text-align: center;
+}
+
+footer p:nth-child(1) {
+    padding-bottom: 0.5rem;
+}
+
+header, footer {
+    background: #02145f;
+    color: aliceblue;
+    padding: 1rem;
+    
+}
+header span {
+    margin-left: 1rem;
+}
+
+nav {
+    background: #083c01;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem;;
+}
+
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.grid-container{
+    display: grid;
+    margin: 1rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.active {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.card ul {
+    list-style: none;
+    margin: 1rem;
+}
+
+.card li {
+    margin: 0.5rem;
+}
+.card h2 {
+    background: #02145f;
+    color: aliceblue;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    margin: 1rem;
+}
+
+#lastModified {
+    color: rgb(49, 235, 28);
+}

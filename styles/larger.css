@@ -1,0 +1,15 @@
+@media screen and (min-width: 800px){
+    nav ul {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+    .grid-container{
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .card
+    {
+        height: 100%;
+    }
+}
