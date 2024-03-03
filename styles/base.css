@@ -6,6 +6,9 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1 {
@@ -22,6 +25,7 @@ header {
 
 footer {
     text-align: center;
+    margin-top: auto;
 }
 
 footer p:nth-child(1) {
