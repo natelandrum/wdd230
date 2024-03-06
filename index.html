@@ -20,16 +20,23 @@
 
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/smaller.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
     <header>
+        <img src="images/dark.svg" alt="dark mode" id="darkBtn">
         <img src="images/profile.jpg" alt="Nathan Landrum Profile Image" width="75" height="100">
         <span>Nathan Ray Landrum</span>
     </header>
-
+    <div id="hamburgerButton">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
     <nav>
-        <ul>
+        
+        <ul class="menuLinks">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="chamber.html">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
@@ -64,5 +71,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

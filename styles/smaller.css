@@ -1,0 +1,8 @@
+@media screen and (max-width: 545px)
+{
+    #darkBtn {
+        left: auto;
+        right: 1vw;
+        top: 14vh;
+    }
+}

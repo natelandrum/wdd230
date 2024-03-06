@@ -17,6 +17,7 @@ h1 {
 }
 
 header {
+    position: relative;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -58,7 +59,6 @@ nav ul {
     padding: 0;
 }
 
-
 nav a {
     display: block;
     text-decoration: none;
@@ -67,9 +67,54 @@ nav a {
     ;
 }
 
-
 nav a:hover {
     background: rgba(255, 255, 255, 0.1);
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: aliceblue;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+ul.menuLinks {
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+}
+
+ul.menuLinks.open {
+    max-height: 200px;
+}
+
+main.dark {
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+main.dark a {
+    color: #75a7d9;
+}
+
+main.dark .card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.open .bar1 {
+    transform: translate(0, 10px)
+    rotate(-45deg);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    transform: translate(0, -10px)
+    rotate(45deg);
 }
 
 .grid-container {
@@ -115,4 +160,29 @@ nav a:hover {
 
 #lastModified {
     color: rgb(49, 235, 28);
+}
+
+#hamburgerButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    width: 44px;
+    height: 55px;
+    align-self: flex-end;
+    position: absolute;
+    top: 1vh;
+    right: 2vw;
+}
+
+#darkBtn {
+    position: absolute;
+    height: 44px;
+    top: 1vh;
+    left: 2vw;
+    margin: 0.75rem;
+    cursor: pointer;
+    background: white;
+    border-radius: 50%;
 }
