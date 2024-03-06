@@ -5,4 +5,8 @@
         right: 1vw;
         top: 60px;
     }
+
+    header span {
+        max-width: 200px;
+    }
 }
