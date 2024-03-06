@@ -72,6 +72,15 @@ nav a:hover {
     background: rgba(255, 255, 255, 0.1);
 }
 
+section a:hover {
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 700;
+}
+
+section a {
+    text-decoration: none;
+}
+
 .bar1,
 .bar2,
 .bar3 {
@@ -91,16 +100,28 @@ ul.menuLinks.open {
     max-height: 200px;
 }
 
-main.dark {
-    background: rgb(0, 0, 0);
+body.dark {
+    background: black;
     color: aliceblue;
 }
 
-main.dark a {
+body.dark section a {
     color: #75a7d9;
 }
 
-main.dark .card {
+body.dark section a:visited {
+    color:rgb(64, 176, 51);
+}
+
+body.dark section a:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+
+
+body.dark .card {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
