@@ -1,0 +1,63 @@
+@media screen and (min-width: 800px) {
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav li {
+        flex-grow: 1;
+    }
+
+    #hamburgerButton {
+        display: none;
+    }
+
+    ul.menuLinks,
+    ul.menuLinks.open {
+        display: flex;
+        max-height: 50px;
+    }
+
+    .grid-container {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .card {
+        height: 100%;
+    }
+
+    .callToAction {
+        left: 15vw;
+        top: 15vh;
+        opacity: 1;
+    }
+
+    .spotlights h2{
+        display: none;
+    }
+
+    .spotlights {
+        grid-column: span 2;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .develop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .marker {
+        visibility: visible;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact div {
+        padding: 2rem;
+    }
+}

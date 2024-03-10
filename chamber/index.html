@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce home page for WDD 230. This page is loosely based on the Cochran Bleckley Chamber of Commerce.">
+    <meta name="author" content="Nathan Ray Landrum">
+    <meta property="og:title" content="Nathan Ray Landrum - WDD 230 - Chamber of Commerce Site">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://natelandrum.github.io/wdd230/chamber/">
+    <meta property="og:image" content="https://townmapsusa.com/images/maps/map_of_cochran_ga.jpg">
+    <title>Chamber of Commerce | Home</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Georgia Logo" height="100">
+        <div>
+            <h1>Cochran-Bleckley</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <div id="hamburgerButton">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    </header>
+    
+    <nav>
+        <ul class="menuLinks">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="form.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="hero">
+            <img src="images/hero.webp" alt="Hero Image Chamber of Commerce">
+            <button class="callToAction">
+                Join Us
+            </button> 
+        </div>
+        <hr>
+        
+        <div class="grid-container">
+            <section class="currentEvents card">
+                <h2>Events</h2>
+                <hr>
+                <h3>Event title - Event subtitle</h3>
+                <p>Event description</p>
+                <a href="">more info...</a>
+            </section>
+
+            <section class="weather card">
+                <h2>Weather</h2>
+                <hr>
+                <div>
+                    <div>
+                        <img src="images/Partly-Cloudy.webp" alt="forecast" class="forecast" height="50" width="50">
+                        <p class="temp">33°C</p>
+                        <p class="forecast"><strong>Partly Cloudy</strong></p>
+                        <p>Humidity: </p>
+                        <span>35%</span>
+                        <p>Wind Chill: </p>
+                        <span>N/A</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="spotlights">
+                <h2>Member Spotlights</h2>
+                <div class="card">
+                    <h3>Spotlight Title</h3>
+                    <h4>Spotlight Subtitle</h4>
+                    <p><a href="">email</a></p>
+                    <p><a href="">number</a></p>
+                    <p><a href="">website</a></p>
+                </div>
+                <div class="card">
+                    <h3>Spotlight Title</h3>
+                    <h4>Spotlight Subtitle</h4>
+                    <p><a href="">email</a></p>
+                    <p><a href="">number</a></p>
+                    <p><a href="">website</a></p>
+                </div>
+                <div class="card">
+                    <h3>Spotlight Title</h3>
+                    <h4>Spotlight Subtitle</h4>
+                    <p><a href="">email</a></p>
+                    <p><a href="">number</a></p>
+                    <p><a href="">website</a></p>
+                </div>
+            </section>
+        </div>
+        
+
+    </main>
+    <footer>
+        <div class="contact">
+            <div>
+                <img src="images/logo.webp" alt="Georgia Logo" height="100">
+                <p>Cochran-Bleckley<br> Chamber of Commerce <br>102 N Second St. <br>Cochran, Ga. 31014</p>
+            </div>
+            <p>info@bleckley-chamber.org <br>(478)934-2965 <br>📍Location Map</p>
+        </div>
+            
+        <hr>
+        <div class="develop">
+            <p>&copy;<span id="year"></span> Cochran Chamber</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>Nathan Ray Landrum</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>WDD 230 Project</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
