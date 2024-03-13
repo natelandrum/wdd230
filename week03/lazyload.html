@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lazyloading Example">
+    <meta name="author" content="Nathan Ray Landrum">
+    <title>Lazyloading</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+<body>
+    <header>
+        <h1>Lazyloading</h1>
+    </header>
+    <main>
+        <img class="lazy" src="" data-src="images/img1.webp" alt="By the Lake" loading="lazy" width="400" height="600">
+        <img class="lazy" src="" data-src="images/img2.webp" alt="Rocking the Black Shirt" loading="lazy" width="400" height="600">
+        <img class="lazy" src="" data-src="images/img3.webp" alt="About to Paraglide" loading="lazy" width="400" height="600">
+        <img class="lazy" src="" data-src="images/img4.webp" alt="No Sleep in a Suit" loading="lazy" width="400" height="600">
+        <img class="lazy" src="" data-src="images/img5.webp" alt="Centro Otomi" loading="lazy" width="400" height="600">
+        <img class="lazy" src="" data-src="images/img6.webp" alt="New Hairdue" loading="lazy" width="400" height="600">
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> | Nathan Ray Landrum | Mexico</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+header,
+footer {
+    background-color: navy;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+}

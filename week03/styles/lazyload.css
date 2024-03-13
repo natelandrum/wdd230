@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+}
+
+#lastModified::before {
+    content: "Last Modified: ";
+}
+
+.fade {
+    background: black;
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

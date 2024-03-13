@@ -205,3 +205,7 @@ body.dark .card {
     background: white;
     border-radius: 50%;
 }
+
+#lastModified::before {
+    content: "Last Modified: ";
+}
