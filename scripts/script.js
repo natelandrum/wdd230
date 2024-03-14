@@ -13,3 +13,9 @@ darkBtn.addEventListener("click", () =>
 {
     document.body.classList.toggle("dark");
 })
+
+let visits = Number(localStorage.getItem("visits")) || 0;
+visits +=1;
+localStorage.setItem("visits", visits);
+
+document.querySelector("#visits").textContent = visits;

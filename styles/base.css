@@ -50,7 +50,7 @@ nav {
     display: flex;
     flex-direction: column;
     background: #083c01;
-    color: white;
+    color: aliceblue;
     text-align: center;
 }
 
@@ -63,7 +63,8 @@ nav ul {
 nav a {
     display: block;
     text-decoration: none;
-    color: aliceblue;
+    background: #083c01;
+    color: white;
     padding: 1rem;
 }
 
@@ -79,6 +80,9 @@ section a:hover {
 section a {
     text-decoration: none;
 }
+iframe {
+    width: 100%;
+}
 
 .bar1,
 .bar2,
@@ -88,6 +92,26 @@ section a {
     background-color: aliceblue;
     margin: 6px 0;
     transition: 0.4s;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.hero {
+    position: relative;
+}
+
+.hero div {
+    position: absolute;
+    font-size: 2rem;
+    background-color: #02145f;
+    color: aliceblue;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    text-align: center;
+    top: 85%;
 }
 
 ul.menuLinks {
@@ -208,4 +232,8 @@ body.dark .card {
 
 #lastModified::before {
     content: "Last Modified: ";
+}
+
+#visits::before {
+    content: "Page Visits: ";
 }

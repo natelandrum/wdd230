@@ -26,7 +26,7 @@
 <body>
     <header>
         <img src="images/dark.svg" alt="dark mode" id="darkBtn">
-        <img src="images/profile.jpg" alt="Nathan Landrum Profile Image" width="75" height="100">
+        <img src="images/profile.webp" alt="Nathan Landrum Profile Image" width="75" height="100">
         <span>Nathan Ray Landrum</span>
     </header>
     <div id="hamburgerButton">
@@ -45,6 +45,16 @@
     </nav>
 
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Mexico City Mexico Temple" width="1500" height="750">
+            </picture>
+            <div>
+                Mexico City Mexico Temple
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1><hr>
         <div class="grid-container">
             <section class="card">
@@ -62,10 +72,11 @@
                 <h2>Information</h2>
                 <p>Tlalnepantla, Mexico</p>
                 <p>🌞 76°F - Sunshine</p>
-                <p>Page Visits: 15</p>
+                <p id="visits"></p>
             </section>
         </div>
     </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7520.93985773005!2d-99.22717615000002!3d19.52142840000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1710383894701!5m2!1sen!2smx" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p>&copy;<span id="year"></span> | Nathan Ray Landrum | Mexico</p>
         <p id="lastModified"></p>
