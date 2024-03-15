@@ -3,4 +3,19 @@
         grid-template-columns: 1fr 2fr 1fr
     }
 
+    .card, .img-card{
+        width: 85vw;
+    }
+    .img-card img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .calendar-header {
+        padding-left: 0;
+    }
+    .month-list>div {
+        margin: 10px 0;
+    }
 }

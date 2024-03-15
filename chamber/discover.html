@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce discover page for WDD 230.">
+    <meta name="author" content="Nathan Ray Landrum">
+    <meta property="og:title" content="Nathan Ray Landrum - WDD 230 - Chamber of Commerce Site">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://natelandrum.github.io/wdd230/chamber/discover.html">
+    <meta property="og:image" content="https://townmapsusa.com/images/maps/map_of_cochran_ga.jpg">
+    <title>Chamber of Commerce | Home</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Georgia Logo" height="100">
+        <div>
+            <h1>Cochran-Bleckley</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <div id="hamburgerButton">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    </header>
+    
+    <nav>
+        <ul class="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="form.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="grid-container sidebar">
+            <div>
+                <div class="card">
+                    <p class="visit"></p>
+                </div>
+                <div class="card">
+                    <h2>Demographics 🗺️</h2>
+                    <hr>
+                    <h3>City Area</h3>
+                    <ul>
+                        <li>4.2 Square Miles</li>
+                        <li>Latitude 32.39 N, Longitude 83.35 W</li>
+                    </ul>
+                    <h3>Age</h3>
+                    <ul>
+                        <li>Under 18 - 1,116 (21.7%)</li>
+                        <li>
+                            18 and over - 4,034 (78.3%)
+                            <ul>
+                                <li>Ages 20-24 - 638</li>
+                                <li>Ages 25-34 - 486</li>
+                                <li>Ages 35-49 - 711</li>
+                                <li>Ages 50-64 - 29</li>
+                                <li>Ages 65 and over - 667</li>
+                            </ul>
+                        </li>
+                        <li>Median Age - 36.7</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h2>Education 🎓</h2>
+                    <hr>
+                    <h3><a href="https://bcps.bleckley.k12.ga.us/">Bleckley County Primary School</a></h3>
+                    <h3><a href="https://bces.bleckley.k12.ga.us/">Bleckley County Elementary School</a></h3>
+                    <h3><a href="https://bcms.bleckley.k12.ga.us/">Bleckley County Middle School</a></h3>
+                    <h3><a href="https://hs.bleckley.k12.ga.us/">Bleckley County High School</a></h3>
+                    <h3><a href="https://www.mga.edu/about/campuses/cochran.php">Middle Georgia State College</a></h3>
+                </div>
+                <div class="card">
+                    <h2>Recreation 🚲</h2>
+                    <hr>
+                    <h3>Ball fields (8)</h3>
+                    <h3>Football/soccer field</h3>
+                    <h3>Gym (28 acres)</h3>
+                    <p>1500 youth anual participation</p>
+                </div>
+                <div class="card">
+                    <div class="calendar">
+                    <div class="calendar-header">
+                        <span class="month-picker" id="month-picker"></span>
+                        <div class="year-picker" id="year-picker">
+                        <span class="year-change" id="pre-year">
+                            &lt;
+                        </span>
+                        <span id="current-year"> </span>
+                        <span class="year-change" id="next-year">
+                            >
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="calendar-body">
+                        <div class="calendar-week-days">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                        </div>
+                        <div class="calendar-days">
+                        </div>
+                    </div>
+                    <div class="calendar-footer">
+                    </div>
+                    <div class="date-time-formate">
+                        <div class="day-text-formate">TODAY</div>
+                        <div class="date-time-value">
+                        <div class="time-formate"></div>
+                        <div class="date-formate"></div>
+                        </div>
+                    </div>
+                    <div class="month-list"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Public Notice 📝</h2>
+                    <hr>
+                    <h3>Planning Commission Work Session Meeting</h3>
+                    <p>
+                        There will be a Planning Commission Work Session on Tuesday, July 6, 2024 at 6:30 p.m. at the City Auditorium. There are two items on the work session agenda: 
+                    </p>
+                        <ul>
+                            <li>Discussion of The City Zoning Ordinance and Official Zoning Map</li>
+                            <li>Discussion of the Thursday, July 8, 2024 Planning Commission meeting</li>
+                        </ul>
+                </div>
+            </div>
+            <div class="images">
+                <div class="img-card">
+                    <img src="images/cochran-1.webp" alt="Earth Day" width="500" height="300" loading="lazy">
+                    <h2>Earth Day</h2>  
+                </div>
+                <div class="img-card">
+                    <img src="images/cochran-2.webp" alt="Courthouse" width="500" height="300" loading="lazy">
+                    <h2>Courthouse</h2>
+                </div>
+                <div class="img-card">
+                    <img src="images/cochran-3.webp" alt="Town Hall" width="500" height="300" loading="lazy">
+                    <h2>Town Hall</h2>
+                </div>
+                <div class="img-card">
+                    <img src="images/cochran-4.webp" alt="City Jail" width="500" height="300" loading="lazy">
+                    <h2>City Jail</h2>
+                </div>
+                <div class="img-card">
+                    <img src="images/cochran-5.webp" alt="Devil's Bridge" width="500" height="300" loading="lazy">
+                    <h2>Devil's Bridge</h2>
+                </div>
+                <div class="img-card">
+                    <img src="images/cochran-6.webp" alt="Downtown Development Authority" width="500" height="300" loading="lazy">
+                    <h2>Downtown Development Authority</h2>
+                </div>
+                
+                
+                
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <div>
+                <img src="images/logo.webp" alt="Georgia Logo" height="100">
+                <p>Cochran-Bleckley<br> Chamber of Commerce <br>102 N Second St. <br>Cochran, Ga. 31014</p>
+            </div>
+            <p>info@bleckley-chamber.org <br>(478)934-2965 <br>📍Location Map</p>
+        </div>
+            
+        <hr>
+        <div class="develop">
+            <p>&copy;<span id="year"></span> Cochran Chamber</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>Nathan Ray Landrum</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>WDD 230 Project</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

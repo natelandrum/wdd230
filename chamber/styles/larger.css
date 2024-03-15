@@ -13,6 +13,12 @@
     #hamburgerButton {
         display: none;
     }
+    .grid-container div img {
+        transition: transform 0.3s ease-in-out;
+    }
+    .grid-container div img:hover {
+        transform: scale(1.05);
+    }
 
     ul.menuLinks,
     ul.menuLinks.open {
@@ -22,6 +28,10 @@
 
     .grid-container {
         grid-template-columns: 2fr 1fr;
+    }
+
+    .grid-container.sidebar {
+        grid-template-columns: 2fr 3fr;
     }
 
     .card {
