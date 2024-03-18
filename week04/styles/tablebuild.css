@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption {
+    caption-side: bottom;
+    padding-top: 10px;
+}
+
+thead {
+    color: aliceblue;
+}
+
+th {
+    font-size: large;
+}
+
+th,
+td {
+    padding: 5px 10px;
+    border: thin solid rgba(0,0,0,0.3);
+}
+
+tbody tr:nth-child(even) {
+    background: #e2d8d8;
+}
+
+thead tr:nth-child(2) {
+    background: rgb(93, 92, 92);
+}
+
+thead tr:first-child,
+thead tr:nth-child(2) th:first-child {
+    background: black;
+}
+
