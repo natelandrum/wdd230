@@ -9,13 +9,16 @@ hamburgerButton.addEventListener("click", () =>
 
 const darkBtn = document.querySelector("#darkBtn");
 
-darkBtn.addEventListener("click", () =>
+if (!!darkBtn)
 {
-    document.body.classList.toggle("dark");
-})
+    darkBtn.addEventListener("click", () =>
+    {
+        document.body.classList.toggle("dark");
+    })
 
-let visits = Number(localStorage.getItem("visits")) || 0;
-visits +=1;
-localStorage.setItem("visits", visits);
+    let visits = Number(localStorage.getItem("visits")) || 0;
+    visits +=1;
+    localStorage.setItem("visits", visits);
 
-document.querySelector("#visits").textContent = visits;
+    document.querySelector("#visits").textContent = visits;
+}

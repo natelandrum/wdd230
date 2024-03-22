@@ -1,0 +1,227 @@
+:root {
+    --primary-color: #02145f;
+    --accent-color1: aliceblue;
+    --accent-color2: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p:nth-child(1) {
+    padding-bottom: 0.5rem;
+}
+
+header,
+footer {
+    background: var(--primary-color);
+    color: var(--accent-color1);
+    padding: 1rem;
+
+}
+
+header span {
+    margin-left: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    color: var(--accent-color1);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    background: #083c01;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 44px;
+    height: 4px;
+    background-color: var(--accent-color1);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+ul.menuLinks {
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+}
+
+ul.menuLinks.open {
+    max-height: 200px;
+}
+
+.open .bar1 {
+    transform: translate(0, 10px) rotate(-45deg);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    transform: translate(0, -10px) rotate(45deg);
+}
+
+#hamburgerButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: var(--accent-color1);
+    cursor: pointer;
+    width: 44px;
+    align-self: flex-end;
+    position: absolute;
+    top: 2vh;
+    right: 3.2vw;
+}
+
+.active {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#lastModified::before {
+    content: "Last Modified: ";
+}
+
+@media screen and (min-width: 800px) {
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav li {
+        flex-grow: 1;
+    }
+
+    #hamburgerButton {
+        display: none;
+    }
+
+    ul.menuLinks,
+    ul.menuLinks.open {
+        display: flex;
+        max-height: 50px;
+    }
+}
+
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #999;
+    border-radius: 6px;
+    margin: 1rem;
+    padding: .5rem 2%;
+}
+
+.wf1 legend {
+    color: var(--accent-color2);
+    padding: 0 .5rem;
+}
+
+.wf1 input {
+    border-radius: 6px;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.wf1 span {
+    margin-left: .5rem;
+    font-size: 1.2rem;
+    color: var(--accent-color2);
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="password"],
+.wf1 input[type="email"] {
+    background: rgb(221, 221, 221);
+    display: block;
+    border: 1px solid #999;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 input[type="range"] {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+}
+
+.wf1 input[type="submit"] {
+    border: none;
+    padding: 1rem;
+    background-image: linear-gradient(var(--accent-color2), var(--primary-color));
+    color: var(--accent-color1);
+    margin: 2rem 0 2rem 0;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.wf1 input[type="submit"]:hover {
+    transform: scale(1.02);
+}
+
+.wf1 input:required {
+    border-left: 8px solid red;
+}
+
+.wf1 input:required:valid {
+    border-left: 8px solid green;
+}
+
+#rating {
+    margin-bottom: 0;
+}
+
+#rangevalue {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+

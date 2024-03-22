@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A form for WDD 230 portal.">
+    <meta name="author" content="Nathan Ray Landrum">
+
+    <meta property="og:title" content="Nathan Ray Landrum - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://natelandrum.github.io/wdd230/form.html">
+    <meta property="og:image" content="https://mexicanroutes.com/wp-content/uploads/2017/10/MexicanRoutes-TlalnepantlaDeBaz.jpg">
+
+    <title>Nathan Ray Landrum - WDD 230 form</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" alt="Nathan Landrum Profile Image" width="75" height="100">
+        <span>Nathan Ray Landrum</span>
+    </header>
+    <div id="hamburgerButton">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <nav>
+        
+        <ul class="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li class="active"><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="record.html" method="get" class="wf1">
+            <fieldset>
+                <legend>Create Account</legend>
+
+                <label>Username<input type="text" name="username" id="username" required></label>
+                <label>Password<input type="password" name="password" id="password" pattern="[0-9A-Za-z]{8,}" required></label>
+                <label>Confirm Password<input type="password" name="passwordConfirm" id="passwordConfirm" pattern="[0-9A-Za-z]{8,}" required></label>
+                <label>Email<input type="email" name="email" id="email" pattern="[a-z0-9._%+\-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+                <label>Page Rating<span id="rangeValue">1</span><input type="range" name="rating" id="rating" min="1" max="10" value="1" step="1" list="rangeValues"></label>
+                <datalist id="rangeValues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <input type="submit" value="Create Account">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> | Nathan Ray Landrum | Mexico</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
