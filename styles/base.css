@@ -144,10 +144,6 @@ body.dark section a:hover {
     color: rgba(255, 255, 255, 0.9);
 }
 
-
-
-
-
 body.dark .card {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }

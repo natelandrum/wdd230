@@ -71,4 +71,15 @@
     .contact div {
         padding: 2rem;
     }
+
+    .hidden {
+        visibility: visible;
+        height: auto;
+    }
+
+    .membership-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
 }

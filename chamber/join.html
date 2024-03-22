@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce join page for WDD 230.">
+    <meta name="author" content="Nathan Ray Landrum">
+    <meta property="og:title" content="Nathan Ray Landrum - WDD 230 - Chamber of Commerce Join">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://natelandrum.github.io/wdd230/chamber/join.html">
+    <meta property="og:image" content="https://townmapsusa.com/images/maps/map_of_cochran_ga.jpg">
+    <title>Chamber of Commerce | Join</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Georgia Logo" height="100">
+        <div>
+            <h1>Cochran-Bleckley<br>Chamber of Commerce</h1>
+        </div>
+        <div id="hamburgerButton">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    </header>
+    
+    <nav>
+        <ul class="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form class="wf1" action="thankyou.html" method="get">
+            <fieldset>
+                <h2>Personal Information</h2>
+                <label>First Name:<input type="text" name="fname" id="fname" required></label>
+                <label>Last Name:<input type="text" name="lname" id="lname" required></label>
+                <label>Title/Position:<input type="text" name="position" id="position" pattern="[A-Za-z\-+\.+\s+]{7,}"></label>
+                <label>Email:<input type="email" name="email" id="email" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" placeholder="someone@domain.com" required></label>
+                <label>Phone:<input type="tel" name="phone" id="phone" required></label>
+                <label>Business/Organization Name:<input type="text" name="business" id="business" required></label>
+            </fieldset>
+            <fieldset>
+                <div class="membership-grid">
+                    <div>
+                        <h2>Membership Information</h2>
+                        <div class="flex-container"><label><input type="radio" name="membership" value="np">Non-Profit</label><span>$0/month</span></div>
+                        <div class="flex-container"><label><input type="radio" name="membership" value="bronze">Bronze</label><span>$10/month</span></div>
+                        <div class="flex-container"><label><input type="radio" name="membership" value="silver">Silver</label><span>$20/month</span></div>
+                        <div class="flex-container"><label><input type="radio" name="membership" value="gold">Gold</label><span>$30/month</span></div>
+                        <label>Business/Organization Description:<textarea name="description" id="description" cols="30" rows="10"></textarea></label>
+                        <input type="hidden">
+                        <input type="submit" value="Join the Chamber">
+                    </div>
+                    <div class="hidden">
+                        <h2>Membership Benefits</h2>
+                        <h3>Bronze </h3>
+                        <ul>
+                            <li>Monthly Newsletter</li>
+                            <li>Access to the community forum</li>
+                            <li>Recognition in newsletters and social media</li>
+                        </ul>
+                        <h3>Silver</h3>
+                        <ul>
+                            <li>Everything from Bronze level</li>
+                            <li>Business finances course once a month</li>
+                            <li>Discounts on partner services</li>
+                        </ul>
+                        <h3>Gold</h3>
+                        <ul>
+                            <li>Everything from Silver level</li>
+                            <li>Exclusive industry trends webinars</li>
+                            <li>Spotlight on the home page once a month</li>
+                        </ul>
+                        <h3>Non-Profit</h3>
+                        <p>Same as Gold - You must prove you're non-profit</p>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class="contact">
+            <div>
+                <img src="images/logo.webp" alt="Georgia Logo" height="100">
+                <p>Cochran-Bleckley<br> Chamber of Commerce <br>102 N Second St. <br>Cochran, Ga. 31014</p>
+            </div>
+            <p>info@bleckley-chamber.org <br>(478)934-2965 <br>📍Location Map</p>
+        </div>
+            
+        <hr>
+        <div class="develop">
+            <p>&copy;<span id="year"></span> Cochran Chamber</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>Nathan Ray Landrum</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>WDD 230 Project</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
