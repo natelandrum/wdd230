@@ -1,0 +1,28 @@
+{
+    "FamilyName": "Landrum",
+    "DateMovedToWard": "2022-03-15",
+    "NumberOfPeopleInFamily": 4,
+    "VisitedByBishopric": true,
+    "FamilyMembers": [
+        {
+            "Name": "Nathan Landrum",
+            "Gender": "Male",
+            "Birthdate": "1993-06-09"
+        },
+        {
+            "Name": "Lorena Landrum",
+            "Gender": "Female",
+            "Birthdate": "1983-06-22"
+        },
+        {
+            "Name": "Nathan Landrum Jr.",
+            "Gender": "Male",
+            "Birthdate": "2021-03-10"
+        },
+        {
+            "Name": "Jonathan Landrum",
+            "Gender": "Male",
+            "Birthdate": "2021-11-25"
+        }
+    ]
+}
