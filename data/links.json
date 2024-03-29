@@ -1,0 +1,102 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/Nathan-Landrum/pen/LYvPRoZ",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "https://codepen.io/Nathan-Landrum/pen/wvZKBQK",
+                    "title": "Hamburger Menu Pen"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "Book of Mormon - Top 10"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "Local Storage"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Nathan-Landrum/pen/OJGbyzV",
+                    "title": "Pseudo-class Pen"
+                },
+                {
+                    "url": "week04/images/combinators.webp",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table"
+                },
+                {
+                    "url": "week04/form.html",
+                    "title": "Form"
+                }
+                
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Nathan-Landrum/pen/mdgwEBp",
+                    "title": "Pseudo-elements Pen"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON File"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets Fetch"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}

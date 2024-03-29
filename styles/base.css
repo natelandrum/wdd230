@@ -200,6 +200,10 @@ body.dark .card {
     text-align: center;
     margin: 1rem;
 }
+.weather {
+    display: flex;
+    justify-content: center;
+}
 
 #lastModified {
     color: rgb(49, 235, 28);
