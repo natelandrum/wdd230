@@ -1,5 +1,5 @@
-const baseURL = "natelandrum.github.io/wdd230/";
-const linksURL = "natelandrum.github.io/wdd230/data/links.json";
+const baseURL = "https://natelandrum.github.io/wdd230/";
+const linksURL = "https://natelandrum.github.io/wdd230/data/links.json";
 const learning = document.querySelector(".learning-activities");
 
 async function getLinks() {
