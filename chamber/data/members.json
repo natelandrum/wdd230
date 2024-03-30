@@ -1,0 +1,77 @@
+{
+    "members":
+    [
+        {
+            "name": "Arnold & Arnold",
+            "address": "111 E Cherry Street, Cochran Ga, 31014",
+            "phone": "(478) 934-4561",
+            "url": "https://georgiadisabilitylawyer.com/about-us/",
+            "file": "arnold.webp",
+            "level": "gold"
+        },
+        {
+            "name": "DGR's Clubhouse",
+            "address": "281 Highway 87 Bypass North, Cochran, GA 31014",
+            "phone": "(478) 271-0111",
+            "url": "https://www.dgrsclubhouse.com/",
+            "file": "dgr.webp",
+            "level": "gold"
+        },
+        {
+            "name": "Needle N/A Haystack",
+            "address": "129 N 2nd St., Cochran, GA 31014",
+            "phone": "(478) 934-1710",
+            "url": "https://www.needlenahaystack.shop/",
+            "file": "needle.webp",
+            "level": "gold"
+        },
+        {
+            "name": "Bleckley Progress",
+            "address": "Online service @ bleckleyprogress@aol.com",
+            "phone": "(478) 230-6556",
+            "url": "http://bleckleyprogress.com/artman/publish/index.html",
+            "file": "progress.webp",
+            "level": "gold"
+        },
+        {
+            "name": "Treasures on Second",
+            "address": "133 N Second Street, Suite B, Cochran, GA 31014",
+            "phone": "(478) 271-3200",
+            "url": "https://www.facebook.com/treasuresonsecondcochranga/",
+            "file": "treasures.webp",
+            "level": "silver"
+        },
+        {
+            "name": "The Cochran Journal",
+            "address": "31 N Second Street, Cochran Ga, 31014",
+            "phone": "(478) 934-6303",
+            "url": "https://www.facebook.com/p/The-Cochran-Journal",
+            "file": "journal.webp",
+            "level": "bronze"
+        },
+        {
+            "name": "Snows Asian Grill",
+            "address": "125 N. 2nd Street, Cochran, GA 31014",
+            "phone": "(478) 271-7669",
+            "url": "https://www.facebook.com/SnowsAsianGrill/",
+            "file": "snows.webp",
+            "level": "bronze"
+        },
+        {
+            "name": "Bohannon's Builders Supply",
+            "address": "305 N Second Street, Cochran Ga, 31014",
+            "phone": "(478) 934-6545",
+            "url": "https://www.facebook.com/bohannonsbuilderssupply/",
+            "file": "builders.webp",
+            "level": "silver"
+        },
+        {
+            "name": "Dixie Delight",
+            "address": "143 E. Dykes St., Cochran, GA 31014",
+            "phone": "(478) 765-2153",
+            "url": "https://www.facebook.com/p/Dixie-Delight-LLC",
+            "file": "dixie.webp",
+            "level": "bronze"
+        }
+    ]
+}

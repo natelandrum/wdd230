@@ -39,6 +39,18 @@ footer {
     padding: 1rem;
 }
 
+footer a {
+    color: var(--accent1-color);
+}
+
+footer a:visited {
+    color: var(--secondary-color);
+}
+
+footer a:hover {
+    color: rgb(0, 136, 255);
+}
+
 header {
     height: fit-content;
     display: grid;
@@ -131,6 +143,47 @@ ul.menuLinks.open {
     transition: 0.4s;
 }
 
+.views {
+    margin: 1rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.grid-button,
+.list-button {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 5%;
+}
+
+.grid-button:hover,
+.list-button:hover {
+    transform: scale(1.02);
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+.box {
+    height: 8px;
+    width: 8px;
+    background: var(--primary-color);
+}
+
+.bar {
+    height: 8px;
+    width: 28px;
+    margin: 2px;
+    background: var(--primary-color);
+}
+
 .hero {
     position: relative;
     display: flex;
@@ -172,6 +225,47 @@ ul.menuLinks.open {
 
 .active {
     background: rgba(0, 0, 0, 0.2);
+}
+.members {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.members div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.members a {
+    padding-top: 0.5rem;
+    color: blue;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.grid {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.members .list {
+    margin: 0 auto;
+    align-items: flex-start;
+    max-width: 400px;
+}
+
+.hidden-img {
+    visibility: hidden;
+    height: 0;
+}
+
+.active-view {
+    background: var(--secondary-color);
 }
 
 .grid-container {
@@ -597,6 +691,10 @@ ul.menuLinks.open {
 
 .date-formate.showtime {
     animation: showtime 1s forwards;
+}
+
+.humidity::after {
+    content: "%";
 }
 
 @keyframes to-top {

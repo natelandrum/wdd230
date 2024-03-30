@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of Commerce home page for WDD 230. This page has events, weather, and spotlights 3 local businesses.">
+    <meta name="description" content="Chamber of Commerce directory page for WDD 230.">
     <meta name="author" content="Nathan Ray Landrum">
     <meta property="og:title" content="Nathan Ray Landrum - WDD 230 - Chamber of Commerce Site">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://natelandrum.github.io/wdd230/chamber/">
+    <meta property="og:url" content="https://natelandrum.github.io/wdd230/chamber/directory.html">
     <meta property="og:image" content="https://townmapsusa.com/images/maps/map_of_cochran_ga.jpg">
-    <title>Chamber of Commerce | Home</title>
+    <title>Chamber of Commerce | Directory</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -35,15 +35,35 @@
         <ul class="menuLinks">
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
 
     <main>
-        <div class="card">
-            <h1>Thank you for signing up!</h1>
+        <div class="views">
+            <div class="grid-button active-view">
+                <div class="box-container">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+            <div class="list-button">
+                <div class="list-container">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
         </div>
+        <div class="members"></div>
     </main>
     <footer>
         <div class="contact">
@@ -64,5 +84,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 </html>
