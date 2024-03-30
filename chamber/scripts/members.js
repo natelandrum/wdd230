@@ -1,6 +1,6 @@
 const membersElement = document.querySelector(".members");
 
-const url = "https://natelandrum.github.io/chamber/data/members.json";
+const url = "https://natelandrum.github.io/wdd230/chamber/data/members.json";
 
 async function jsonFetch() 
 {
