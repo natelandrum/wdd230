@@ -193,6 +193,9 @@ ul.menuLinks.open {
 }
 
 .callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 200px;
     font-size: 2rem;
@@ -205,6 +208,19 @@ ul.menuLinks.open {
     color: white;
     border: none;
     border-radius: .5rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: #f8d7da;
+    padding: 1.5rem;
+}
+
+.banner button {
+    width: 52px;
+    height: 46px;
+    margin: 0 0.5rem;
 }
 
 .hero img {
@@ -307,17 +323,33 @@ ul.menuLinks.open {
 
 .weather div {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
 }
-.weather div>div{
+
+.weather div div{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    justify-content: center;
+}
+
+.weather div .three-day {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.weather p, .weather span {
+    text-align: center;
 }
 
 .weather img {
     grid-row: span 2;
+    margin: 0 auto;
 }
 
 .spotlights h2 {

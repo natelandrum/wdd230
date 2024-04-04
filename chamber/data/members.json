@@ -7,7 +7,8 @@
             "phone": "(478) 934-4561",
             "url": "https://georgiadisabilitylawyer.com/about-us/",
             "file": "arnold.webp",
-            "level": "gold"
+            "level": "gold",
+            "slogan": "Tell Me About Your Case!"
         },
         {
             "name": "DGR's Clubhouse",
@@ -15,7 +16,8 @@
             "phone": "(478) 271-0111",
             "url": "https://www.dgrsclubhouse.com/",
             "file": "dgr.webp",
-            "level": "gold"
+            "level": "gold",
+            "slogan": "Come to Eat, Stay to Play!"
         },
         {
             "name": "Needle N/A Haystack",
@@ -23,7 +25,8 @@
             "phone": "(478) 934-1710",
             "url": "https://www.needlenahaystack.shop/",
             "file": "needle.webp",
-            "level": "gold"
+            "level": "gold",
+            "slogan": "Where Every Thread Leads to Inspiration!"
         },
         {
             "name": "Bleckley Progress",
@@ -31,7 +34,8 @@
             "phone": "(478) 230-6556",
             "url": "http://bleckleyprogress.com/artman/publish/index.html",
             "file": "progress.webp",
-            "level": "gold"
+            "level": "gold",
+            "slogan": "Where to Go When You Need to Know!"
         },
         {
             "name": "Treasures on Second",
@@ -39,7 +43,8 @@
             "phone": "(478) 271-3200",
             "url": "https://www.facebook.com/treasuresonsecondcochranga/",
             "file": "treasures.webp",
-            "level": "silver"
+            "level": "silver",
+            "slogan": "Homegrown Style, Heartfelt Gifts!"
         },
         {
             "name": "The Cochran Journal",
@@ -47,7 +52,8 @@
             "phone": "(478) 934-6303",
             "url": "https://www.facebook.com/p/The-Cochran-Journal",
             "file": "journal.webp",
-            "level": "bronze"
+            "level": "bronze",
+            "slogan": "Bringing News to You!"
         },
         {
             "name": "Snows Asian Grill",
@@ -55,7 +61,8 @@
             "phone": "(478) 271-7669",
             "url": "https://www.facebook.com/SnowsAsianGrill/",
             "file": "snows.webp",
-            "level": "bronze"
+            "level": "bronze",
+            "slogan": "Crafting Memories, One Bite at a Time!"
         },
         {
             "name": "Bohannon's Builders Supply",
@@ -63,7 +70,9 @@
             "phone": "(478) 934-6545",
             "url": "https://www.facebook.com/bohannonsbuilderssupply/",
             "file": "builders.webp",
-            "level": "silver"
+            "level": "silver",
+            "slogan": "Foundations for Your Future!"
+
         },
         {
             "name": "Dixie Delight",
@@ -71,7 +80,8 @@
             "phone": "(478) 765-2153",
             "url": "https://www.facebook.com/p/Dixie-Delight-LLC",
             "file": "dixie.webp",
-            "level": "bronze"
+            "level": "bronze",
+            "slogan": "Indulge in Southern Sweetness:"
         }
     ]
 }

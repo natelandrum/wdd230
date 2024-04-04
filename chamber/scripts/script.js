@@ -195,3 +195,19 @@ if (document.querySelector(".visit"))
 
     localStorage.setItem("lastVisit", Date.now())
 }
+
+if (document.querySelector(".banner"))
+{
+    document.querySelector('.close').addEventListener('click', function() {
+    document.querySelector('.banner').style.display = 'none';
+    });
+    const banner = document.querySelector('.banner');
+    const date = new Date();
+    const dayOfWeek = date.getDay();
+
+    if (dayOfWeek >= 1 && dayOfWeek <= 3) { 
+        banner.style.display = 'flex';
+    } else {
+        banner.style.display = 'none';
+    }
+}
