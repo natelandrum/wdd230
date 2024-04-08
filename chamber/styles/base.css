@@ -222,6 +222,7 @@ ul.menuLinks.open {
     width: 52px;
     height: 46px;
     margin: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 .banner p {
