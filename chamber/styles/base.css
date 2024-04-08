@@ -212,15 +212,20 @@ ul.menuLinks.open {
 
 .banner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #f8d7da;
     padding: 1.5rem;
 }
 
-.banner button {
+.banner .close {
     width: 52px;
     height: 46px;
-    margin: 0 0.5rem;
+    margin: 0 1rem;
+}
+
+.banner p {
+    padding: 1rem;
 }
 
 .hero img {
